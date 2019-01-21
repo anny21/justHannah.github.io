@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- loading bar css -->
+    <link rel="stylesheet" href="loading-bar.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="wrapper"></div>
+    <!-- header -->
+    <header>
+        <div class="siteTitle">
+
+        </div>
+        <nav>
+
+            <ul>
+                <li><a href="">About</a> </li>
+                <li class="newsletter"><a href="#">News letter</a> </li>
+                <li><a href="#mail">Contact</a> </li>
+            </ul>
+        </nav>
+    </header><!--  close header -->
+    <div class="modal"><!-- modal -->
+        <div class="close"><a href="#">X</a></div>
+        <div id="modal">
+
+            <h3 style="color:red;">Oops! Am sorry This isnt available in your country</h3>
+            <h3>Sign up for my News letter</h3>
+            <form action="">
+                <input type="text" placeholder="Name" disabled/><br/>
+                <input type="text" placeholder="Email" disabled/><br/>
+                <button class="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="secondSect">
+        <!-- section for quotes and know me -->
+        <div class="row">
+            <div class="first">
+                <div>
+                    <div class="welcome">
+                        <div class="img">
+
+                        </div>
+                        <div class="text">
+                            <div class="anim">
+                                <i class="fas fa-sticky-note"></i>.....<span class="element"></span>
+                            </div>
+
+                            <div class="thingsIneedTodo">
+                                <p>I know i will be the best some day i just need to keep pushing</p>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="second">
+                <div class="slideDown">
+                    <div class="quote-box">
+                        <div class="quote">
+                            <blockquote>
+
+                                <p class="slideD"></p>
+
+                                <p class="name"></p>
+                            </blockquote>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- section for mentors -->
+    <section class="mentors">
+        <div class="pictureButton">
+            <button class="togglePicture" href=""></button>
+
+        </div>
+        <h1>Mentors</h1>
+        <div class="gridM">
+            <div class="grid1">
+                <img src="img/doe.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo inventore repudiandae esse.</p>
+                <div class="icon"><span> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i></span></div>
+            </div>
+            <div class="grid2"><img src="img/doe.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo inventore repudiandae esse.</p>
+                <div class="icon"><span>
+                     </i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i></span> </div>
+            </div>
+            <div class="grid3"><img src="img/doe.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo inventore repudiandae esse.</p>
+                <div class="icon"><span> </i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i></span></div>
+
+            </div>
+            <div class="pics">
+                <img class="img" src="img/boo.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo inventore repudiandae esse.</p>
+                <div class="icon">
+                    <span> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i></span>
+                </div>
+            </div>
+            <!-- end section for mentors -->
+    </section>
+    <!-- progress bar section -->
+    <section class="myProgress">
+        <h1>My Learning Progress</h1>
+        <!-- parent div -->
+        <div class="gridProgress">
+
+            <div class="ldBar label-center" style="width:100%; height:80%" data-value="69" data-stroke="data:ldbar/res,gradient(0,1,#f99,#ff9)" data-stroke-trail="blue" data-preset="circle">Javascript</div>
+
+            <div class="ldBar label-center" style="width:100%; height:80%" data-value="80" data-stroke="blue" data-preset="circle">HTML 5</div>
+
+            <div class="ldBar label-center lastGrid" style="width:100%; height:80%" data-value="70" data-stroke="yellow" data-preset="circle">CSS 3</div>
+
+            <!-- <div class="ldBar label-center" style="width:100%; height:80%" data-value="80" data-stroke="green" data-preset="circle">HTML5</div>
+
+            <div class="ldBar label-center" style="width:100%; height:80%" data-value="60" data-stroke="yellow" data-preset="circle">CSS</div>
+            <div class="ldBar label-center" style="width:100%; height:80%" data-value="60" data-stroke="red" data-preset="circle">Javascript</div> -->
+        </div>
+    </section>
+    <!-- end of progress -->
+
+    <!-- section mail -->
+    <section class="mail">
+        <div class="container">
+            <p>Send me a mail on how to improve this site,</p>
+            <p>Above all rate me by sending a mail</p>
+            <div id="mail">
+                <input type="text" value="honyinye3@gmail.com" disabled>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="believe">
+            <li>Always believe in yourself</li>
+            <p>With &hearts; from hannah &COPY; 2019</p>
+
+        </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="loading-bar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="particles/package/particles.js"></script>
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+    <script src="particles/package/particles.js"></script>
+</body>
+
+</html>
